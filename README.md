@@ -25,7 +25,9 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
+
+```c
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
@@ -87,11 +89,14 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 ## OUTPUT
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/865da787-d884-4928-b115-c2a5e92a0f7d)
+
+![alt text](image.png)
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```
+
+```c
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -108,8 +113,9 @@ exit(EXIT_SUCCESS);
 
 
 ## OUTPUT
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/10a7a21f-e6aa-4b01-9f49-02ae6cbfadf5)
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/743a916f-89f7-4cb6-959f-3d7b9d597db4)
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 
 # RESULT:
